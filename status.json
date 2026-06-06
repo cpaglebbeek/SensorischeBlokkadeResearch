@@ -46,10 +46,12 @@
     "state": "running"
   },
   "D4": {
-    "end": null,
-    "exit": null,
+    "end": "2026-06-06T23:49:00+00:00",
+    "exit": 0,
+    "output_bytes": 43243,
+    "output_lines": 1045,
     "start": "2026-06-06T23:44:40+00:00",
-    "state": "running"
+    "state": "done"
   },
   "_zwerm": {
     "agents_done": 0,
