@@ -6,10 +6,12 @@
     "state": "running"
   },
   "B2": {
-    "end": null,
-    "exit": null,
+    "end": "2026-06-06T23:48:30+00:00",
+    "exit": 0,
+    "output_bytes": 19985,
+    "output_lines": 208,
     "start": "2026-06-06T23:44:40+00:00",
-    "state": "running"
+    "state": "done"
   },
   "B3": {
     "end": "2026-06-06T23:47:49+00:00",
