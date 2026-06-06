@@ -1,4 +1,52 @@
 {
+  "B1": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "B2": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "B3": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "B4": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "D1": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "D2": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "D3": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
+  "D4": {
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:44:40+00:00",
+    "state": "running"
+  },
   "_zwerm": {
     "agents_done": 0,
     "agents_total": 8,
