@@ -34,10 +34,12 @@
     "state": "running"
   },
   "D2": {
-    "end": null,
-    "exit": null,
+    "end": "2026-06-06T23:50:49+00:00",
+    "exit": 0,
+    "output_bytes": 28836,
+    "output_lines": 166,
     "start": "2026-06-06T23:44:40+00:00",
-    "state": "running"
+    "state": "done"
   },
   "D3": {
     "end": null,
