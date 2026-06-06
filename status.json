@@ -14,12 +14,10 @@
     "state": "done"
   },
   "B3": {
-    "end": "2026-06-06T23:47:49+00:00",
-    "exit": 1,
-    "output_bytes": 135,
-    "output_lines": 1,
-    "start": "2026-06-06T23:44:40+00:00",
-    "state": "failed"
+    "end": null,
+    "exit": null,
+    "start": "2026-06-06T23:49:39+00:00",
+    "state": "running"
   },
   "B4": {
     "end": "2026-06-06T23:49:20+00:00",
