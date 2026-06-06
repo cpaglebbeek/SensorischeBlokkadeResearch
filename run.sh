@@ -32,7 +32,7 @@ PY
 git pull --rebase --autostash 2>/dev/null || true
 git add status.json
 git commit -m "[zwerm] gestart $date_iso — 8 agents (B1-D4)" --quiet
-git push github-research main 2>&1 | tail -3
+git push origin main 2>&1 | tail -3
 
 # Start tmux
 tmux new-session -d -s "$session" -n init "echo 'zwerm start: $date_iso'; sleep 2"

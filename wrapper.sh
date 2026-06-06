@@ -34,7 +34,7 @@ PY
   git pull --rebase --autostash 2>>"$log_file" || true
   git add status.json logs/$agent.log 2>>"$log_file"
   git commit -m "[$agent] running" --quiet 2>>"$log_file" || true
-  git push github-research main 2>>"$log_file" || true
+  git push origin main 2>>"$log_file" || true
 ) 201>"$git_lock"
 
 # Run agent
@@ -72,7 +72,7 @@ PY
   git pull --rebase --autostash 2>>"$log_file" || true
   git add output/$agent.md logs/$agent.log status.json 2>>"$log_file"
   git commit -m "[$agent] $( [ $exit_code -eq 0 ] && echo done || echo failed ) — bytes=$output_bytes lines=$output_lines" --quiet 2>>"$log_file" || true
-  git push github-research main 2>>"$log_file" || echo "[$agent] PUSH FAILED $(date -Iseconds)" >> "$log_file"
+  git push origin main 2>>"$log_file" || echo "[$agent] PUSH FAILED $(date -Iseconds)" >> "$log_file"
 ) 201>"$git_lock"
 
 exit $exit_code

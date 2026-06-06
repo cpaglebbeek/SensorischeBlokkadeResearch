@@ -105,7 +105,7 @@ PY
   git pull --rebase --autostash 2>/dev/null || true
   git add SUMMARY.md status.json
   git commit -m "[zwerm] COMPLEET $completed_ts — alle 8 agents klaar, SUMMARY.md geschreven" --quiet
-  git push github-research main 2>&1 | tail -3
+  git push origin main 2>&1 | tail -3
 ) 201>"$git_lock"
 
 echo "[monitor] SUMMARY gepusht. Klaar."
