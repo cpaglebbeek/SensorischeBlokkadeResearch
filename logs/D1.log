@@ -1,2 +1,8 @@
 [D1] start 2026-06-06T23:44:40+00:00
 Applied autostash.
+fatal: 'github-research' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[D1] end 2026-06-07T00:03:29+00:00 code=0 bytes=1733 lines=22
