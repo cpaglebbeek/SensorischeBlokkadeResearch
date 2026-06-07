@@ -64,9 +64,9 @@
     "state": "done"
   },
   "_zwerm": {
-    "agents_done": 0,
+    "agents_done": 8,
     "agents_total": 8,
-    "completed": null,
+    "completed": "2026-06-07T00:09:42+00:00",
     "started": "2026-06-06T23:44:39+00:00"
   }
 }
