@@ -1,9 +1,11 @@
 {
   "B1": {
-    "end": null,
-    "exit": null,
+    "end": "2026-06-07T00:04:13+00:00",
+    "exit": 0,
+    "output_bytes": 2267,
+    "output_lines": 34,
     "start": "2026-06-06T23:44:40+00:00",
-    "state": "running"
+    "state": "done"
   },
   "B2": {
     "end": "2026-06-06T23:48:30+00:00",
